@@ -23,7 +23,9 @@ namespace WindowsFormsApp1
             {
                 _net = Convert.ToInt32(textBox10.Text); 
             }
-            catch { }
+            catch {
+            textBox10.BackColor = Red;
+            }
         }
 
         public Form1()
@@ -86,6 +88,13 @@ namespace WindowsFormsApp1
             }
             catch
             {
+               textBox7.BackColor = Red;
+               textBox2.BackColor = Red;
+               textBox4.BackColor = Red;
+               textBox5.BackColor = Red;
+               
+               
+               
                
             }
 
